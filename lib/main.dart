@@ -38,9 +38,8 @@ class HomeScreen extends StatelessWidget {
           SizedBox(width: double.infinity),
           Expanded(
             flex: 3,
-            child: Container(
-              height: 200.0,
-              color: Colors.red,
+            child: Image(
+              image: AssetImage('images/1.png'),
             ),
           ),
           Expanded(
@@ -52,9 +51,8 @@ class HomeScreen extends StatelessWidget {
           ),
           Expanded(
             flex: 3,
-            child: Container(
-              height: 200.0,
-              color: Colors.red,
+            child: Image(
+              image: AssetImage('images/2.png'),
             ),
           ),
         ],
