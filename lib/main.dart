@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 onPressed: () {
                   setState(() {
-                    top = Random().nextInt(3) + 1;
+                    top = Random().nextInt(3) + 1;  //(0-2) + 1 = (1-3)
                     bottom = Random().nextInt(3) + 1;
                   });
                 },
